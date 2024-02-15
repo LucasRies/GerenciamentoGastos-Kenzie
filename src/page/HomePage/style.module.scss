@@ -1,0 +1,14 @@
+.container {
+    margin-right: 2rem;
+    margin-left: 2rem;    
+}
+
+.flexBox {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    @media (min-width: 800px) {
+        flex-direction: row;
+    }
+}

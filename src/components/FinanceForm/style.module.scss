@@ -1,0 +1,36 @@
+.form{
+    display: flex;    
+    height: 434px;
+    border: 1px solid rgba(0, 0, 0, 0.20);
+    justify-content: center;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    margin-top: 1.25rem;
+
+    form {
+        width: 95%;
+    }
+
+    
+}
+
+.form h2,
+.form p,
+.form select{
+  margin-bottom: 10px; 
+}
+
+.form button {
+    margin-top: 20px;
+}
+
+.selected{
+    background-color: var(--color-gray-1);
+    border-radius: 8px;
+    border: 2px solid var(--color-gray-1);
+    width: 97%;
+    height: 52.8px;
+    display: flex;        
+    padding: 0px 16px;    
+}
+

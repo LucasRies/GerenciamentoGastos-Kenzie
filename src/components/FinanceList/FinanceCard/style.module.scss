@@ -1,0 +1,58 @@
+.financeCard {
+    background-color: var(--color-gray-1);
+    width: 95%;
+    height: 156px;
+    border-radius: 4px;
+    border-left: 5px solid;
+    margin-bottom: 1rem;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.625rem;
+    padding-left: 1.25rem;
+
+    button { 
+    margin-top: 0.625rem;       
+    width: 49px;
+    height: 19px;
+    border-radius: 2px;    
+    font-family: Nunito;
+    font-size: 10px;
+    font-weight: 400;
+    background-color: var(--color-gray-2);      
+    }
+    
+    &.blue{
+        border-color: #03B898;
+    }
+
+    &.orange{
+        border-color: red;
+    }   
+}
+
+
+@media (min-width: 800px) {
+    
+    .financeCard{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        width: 90%;
+        min-width: 560px;
+        height: 87px;
+        
+        .rightAlign{
+            text-align: right;
+            padding-right: 1rem;
+        }
+    }
+    
+    
+}
+
+
+
+  
+

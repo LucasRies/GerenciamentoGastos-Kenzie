@@ -1,0 +1,62 @@
+.title {
+    font-family: var(--font-primary);    
+    color: var(--color-gray-4);
+
+    &.one {
+        font-size: 38px;    
+        font-weight: 800;
+        line-height: 48px;
+    }
+
+    &.two {
+        font-size: 22px;        
+        font-weight: 700;
+        line-height: 34px;
+    }
+
+    &.tree {
+        font-size: 16px;
+        font-weight: 700;    
+        line-height: 30px;
+    }
+
+    &.four {
+        font-size: 12px;        
+        font-weight: 600;
+        line-height: 26px;
+    }
+
+    &.five {
+        font-size: 12px;    
+        font-weight: 400;
+        line-height: 22px;
+    }
+}
+
+.titlePink {
+    font-family: var(--font-primary);    
+    color: var(--color-primary);
+    font-size: 16px;
+    font-weight: 700;    
+    line-height: 30px;
+}
+
+.paragraph {
+    font-family: var(--font-primary);    
+    color: var(--color-gray-3);
+    
+    &.one {
+        font-size: 16px;        
+        font-weight: 400;
+        line-height: 26px;
+    }
+
+    &.two {
+        font-size: 12px;        
+        font-weight: 400;
+        line-height: 22px;
+    }
+}
+
+
+
